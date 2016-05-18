@@ -4,7 +4,7 @@ add this as the remote: `git remote add upstream https://github.com/outdoola/mer
 
 once you add this make sure your remote is there with `git remote -v`
 
-1. Edit this with your first name *Hello!!*.
+1. Edit this with your first name *Jim*.
 ----------------------------------------------
 
 Lets try to `git pull upstream master` and see what happens.
@@ -19,7 +19,7 @@ Now lets pull but take the master changes:
 (In your normal repos to get Jim's changes, use `git pull upstream master -s recursive -X theirs`)
 
 
-2. Edit this with your last name *Jim Byers*.
+2. Edit this with your last name *Byers*.
 ----------------------------------------------
 Now lets pull but take our local changes: 
 `git pull upstream master -s recursive -X ours`
